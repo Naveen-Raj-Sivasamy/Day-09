@@ -3,13 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tables</title>
+   
+
+    <style>
+        
+        /* CSS for the blinking effect */
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .blink {
+            animation: blink 2s infinite;
+        }
+ /* CSS for rotate text */
+ .rotate-text {
+            display: inline-block;
+            transform: rotate(45deg);
+        }
+
+        /* CSS for textarea */
+        textarea {
+            border: 1px solid #000;
+        }
+
+        body {
+            background-color: blanchedalmond;
+        }
+  
+        
+    </style>
 </head>
 <body>
-    <table>
+    <p style="text-size-adjust: 100%;  
+    max-width: 100%; 
+    padding: 1.125rem 2.25rem; 
+    border-radius: 1.875rem; 
+    box-sizing: border-box; 
+    font-size: 1.5rem;
+    color: azure;
+    font-weight: 500; 
+    text-align: center; 
+    background-color: #22318a;"> 
+    Zen-Class-<span class="blink">Day-09-HTML</span></p>
+    <p style="font-size: 18px; color: crimson;"><strong>Name: </strong><span class="blink"><a style="color: black;">Naveen Raj Sivasamy</a></span></p>
+    <p style="font-size: 18px; color: crimson;"><strong>Batch: </strong><span class="blink"><a style="color: black;">B53 WD Tamil</a></span></p>
+    <p style="font-size: 18px; color: crimson;"><strong>Email ID: <span class="rotate-text"></strong><a rel="noopener noreferrer" href="Mailto:naveenrajsivasamy@gmail.com"style="color: black; ">naveenrajsivasamy@gmail.com</a></span></p>
+    <br>
+        
+     
+     <table border="1"><caption style="font-weight: 800;">Caption : My First Data</caption>
+        <thead>
+            <tr>
+                <td rowspan="2">State of Health</td>
+                <td colspan="2">Fasting Value</td>
+                <td align="center">After Eating</td>
+            </tr>
+            <tr>
+                <td>Minimum</td>
+                <td>Maximum</td>
+                <td>Two Hrs After Eating</td>
+            </tr>
+            <tr>
+                <td>Healthy</td>
+                <td>70</td>
+                <td>100</td>
+                <td>Less than 140</td>
+            </tr>
+            <tr>
+                <td>Pre-Diabetes</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140-200</td>
+            </tr>
+            <tr>
+                <td>Diabetes</td>
+                <td>More than 126</td>
+                <td>N/A</td>
+                <td>More than 200</td>
+            </tr>
+        </thead>
+        <tbody
         <tr>
-            <td
+            
+            
         </tr>
     </table>
+        
+        
+    
+    <br><br>
+    <p style="font-size: 18px; text-align: center;"> Visit My <a href="https://www.linkedin.com/in/naveen-raj-sivasamy-603826196/" style="font-size: 18px; color: red;" target="_blank"><span class="blink">LinkedIn Profile</span></a></p>
+    
 </body>
 </html>
